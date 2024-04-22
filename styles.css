@@ -1,0 +1,84 @@
+html {
+  font-size: 18px;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #ffa351, #ffbe7b, #eed971);
+}
+#meal {
+  width: 100%;
+}
+#meal-app h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1.2rem;
+}
+#meal-search {
+  width: 100% !important;
+  height: 4rem !important;
+  padding: 1rem 1rem 1rem 2rem !important;
+  border-radius: 5rem;
+  font-size: 1rem;
+}
+.meal-image {
+  width: 15rem;
+  height: 15rem;
+  margin: auto;
+}
+.d-flex-jcs-aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.searched-results-list button {
+  background-image: linear-gradient(
+    to right,
+    #e52d27 0%,
+    #b31217 51%,
+    #e52d27 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.searched-results-list button:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+.favourities-list button {
+  background-image: linear-gradient(
+    to right,
+    #56ccf2 0%,
+    #2f80ed 51%,
+    #56ccf2 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.favourities-list button:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
